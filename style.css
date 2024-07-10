@@ -1,13 +1,15 @@
 body,html {
     height: 150vh;
+    overflow: scroll;
     position: relative;
+    background-color: rgb(246, 240, 228);
 }
 * {
     padding-left: 25px;
     padding-right: 25px;
 }
 .header {
-    padding-top: 5px;
+    padding-top: 2px;
     background-color: #202c3d;
 }
 ul {
@@ -41,6 +43,7 @@ button {
     color: white;
     display:flex;
     padding-bottom: 20px;
+    margin-bottom: 100px;
 }
 .photo-container > * {
     flex: 1 1 0;
@@ -67,6 +70,7 @@ img {
     width: 150px;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
 }
 .sub-box {
     max-width:150px;
@@ -80,7 +84,9 @@ img {
     align-items: center;
     padding: 70px;
     font-weight: 50;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+    box-shadow: 1px 1px 7px 1px;
+    border-radius: 3%;
 }
 .charli {
     display: flex;
@@ -93,9 +99,11 @@ img {
     justify-content: center;
     align-items: center;
 }
-.sub-call {
-    max-width: 600px;
+.call > .sub-call {
+    max-width: 250px;
     background-color: #3882F6;
+    border-radius: 10%;
+    max-height: 200px;
 }
 /* footer{
     display: flex;
@@ -112,7 +120,7 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 52px;
+    height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
